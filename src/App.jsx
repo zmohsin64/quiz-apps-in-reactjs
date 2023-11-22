@@ -137,7 +137,7 @@ function App() {
         <div className="final-result">
           <h1>Final Results</h1>
           <h2>{score} out of {questions.length} correct = ({(score/questions.length) * 100}%)</h2>
-          <button onClick={() => restartGame()}> Restart game </button>
+          <button onClick={() => restartGame()}> Restart</button>
         </div>
       ) : (
         <div className="question-card">
